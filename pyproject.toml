@@ -1,0 +1,24 @@
+[project]
+name = "p1-sistemasbasadosenreglas-tvd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nat-IA-Projects", email = "natalia.rodriguez.alvarez@estudiantat.upc.edu" }
+]
+requires-python = ">=3.11.9"
+dependencies = [
+    "nltk>=3.10.3",
+]
+
+[project.scripts]
+p1-sistemasbasadosenreglas-tvd = "p1_sistemasbasadosenreglas_tvd:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
