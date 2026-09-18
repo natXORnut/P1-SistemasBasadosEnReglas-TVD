@@ -33,6 +33,44 @@
       "answer_key": "location"
     },
     {
+      "question": "Are you looking to buy or rent a house?",
+      "type": "multichoice",
+      "prompt": "Enter your choice (sale or rent): ",
+      "answer_key": "type"
+    },
+    {
+      "question": "What is your household's monthly income?",
+      "type": "numerical",
+      "prompt": "Enter your monthly income in euros: ",
+      "answer_key": "monthly_income"
+    },
+    {
+      "question": "What is the minimum floor you would like to live on?",
+      "type": "numerical",
+      "prompt": "Enter the minimum floor: ",
+      "answer_key": "floor"
+    },
+    {
+      "question": "Do you want a house with a terrace?",
+      "type": "multichoice",
+      "prompt": "Enter your choice (Yes or No): ",
+      "answer_key": "terrace"
+    },
+    {
+      "question": "Do you want a house with an elevator?",
+      "type": "multichoice",
+      "prompt": "Enter your choice (Yes or No): ",
+      "answer_key": "elevator"
+    },
+    {
+      "question": "Will you use the house for commercial purposes?",
+      "type": "multichoice",
+      "prompt": "Enter your choice (Yes or No): ",
+      "answer_key": "commercial_use"
+    }
+  ],
+  "houses": [
+    {
       "id": 1,
 	  "type":"rent",
       "bedrooms": "3",
