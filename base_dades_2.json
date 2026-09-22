@@ -17,7 +17,7 @@
     {
       "question": "What is your budget for the house?",
 	  "type": "numerical",
-      "prompt": "Enter your choice (1k - 999k euros):", 
+      "prompt": "Enter your choice:", 
       "answer_key": "price"
     },
     {
