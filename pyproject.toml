@@ -2,7 +2,6 @@
 name = "p1-sistemasbasadosenreglas-tvd"
 version = "0.1.0"
 description = "Add your description here"
-readme = "README.md"
 authors = [
     { name = "Nat-IA-Projects", email = "natalia.rodriguez.alvarez@estudiantat.upc.edu" }
 ]
@@ -22,3 +21,6 @@ build-backend = "uv_build"
 dev = [
     "ipykernel>=7.3.0",
 ]
+
+[tool.uv]
+package = false
