@@ -6,6 +6,7 @@
 - [ ] Sinónimos + negación para las preguntas Sí/No (terraza, ascensor, uso comercial): aceptar "yeah", "I don't want a terrace", no solo `Yes`/`No` exactos.
 - [ ] Fuzzy matching en `location` (`difflib`) para errores de escritura y mayúsculas.
 - [ ] Aceptar números en palabra para habitaciones/baños ("one", "two"), ya que el rango es pequeño (1-5 / 1-3).
+- Añadir más frases y sinonimos
 
 ## B. Sensación de conversación natural (interfaz)
 - [ ] Confirmación corta tras cada respuesta ("Got it, 3 bedrooms.") antes de pasar a la siguiente pregunta.
@@ -20,9 +21,7 @@
 - [ ] Si la planta resultante es alta (≥3) y la casa no tiene ascensor → aviso en el resultado, no antes.
 
 ## D. Búsqueda y resultados (bugs reales, no opcionales)
-- [ ] `price` se compara con `==` en vez de `<=`: casi nunca hay coincidencia. Hay que arreglarlo si o sí para que el sistema devuelva algo.
-- [ ] `bedrooms`, `bathrooms`, `square_meters` igual: deberían ser `>=`, no `==`.
-- [ ] Mensaje de "sin resultados" con explicación de por qué (qué filtro falló), en vez de solo "lo siento". No hace falta que ofrezca alternativas para elegir, solo que explique.
+- Mirar si se me ocurren más ideas
 
 ## E. Pruebas
 - [ ] Tabla de frases con distintas formas de decir lo mismo (10-15 frases) para comprobar que el parser flexible funciona, y qué porcentaje acierta.
@@ -40,3 +39,10 @@
 
 # Revisar
 - que si dices any con sale and rent, te pida las dos opciones de precio
+- Revisar que los caminos sean correctos
+- fuzzy maching en preguntas que no tengan si y no
+- preguntar si el precio del alquiler lo quieren calcular a partir de su sueldo o dar un precio limite.
+
+
+
+- Arreglar ejercicio 4, 5 y 6 con el tema de los números.
