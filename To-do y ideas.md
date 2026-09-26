@@ -42,7 +42,9 @@
 - Revisar que los caminos sean correctos
 - fuzzy maching en preguntas que no tengan si y no
 - preguntar si el precio del alquiler lo quieren calcular a partir de su sueldo o dar un precio limite.
+- hacer que el debug se active con un parametro
 
 
 
 - Arreglar ejercicio 4, 5 y 6 con el tema de los números.
+- Hacer que no se modifique la database, que se añada en el codigo no manualmente el archivo
