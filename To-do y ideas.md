@@ -50,7 +50,7 @@ Type the number to see the full details, or 'no' to finish.
 
 - A lo mejor habria que hacer mas natural lo que dice y la dinamica en la segunda ronda
 
-
+- Acabar de revisar como salen las cosas si solo cambias un factor, dos o tres.
 
 - Arreglar ejercicio 4, 5 y 6 con el tema de los números.
 - Hacer que no se modifique la database, que se añada en el codigo no manualmente el archivo
