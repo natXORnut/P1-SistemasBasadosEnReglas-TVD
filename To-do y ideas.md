@@ -52,11 +52,20 @@ Type the number to see the full details, or 'no' to finish.
 
 - Acabar de revisar como salen las cosas si solo cambias un factor, dos o tres.
 
-- Arreglar ejercicio 4, 5 y 6 con el tema de los números.
-- Hacer que no se modifique la database, que se añada en el codigo no manualmente el archivo
+- lo de ir hacia atrás hay que revisarlo y si el usuario dice que se ha equivocado, tambien ir hacia atrás, no sé si poner una pregunta de confirmacion...
+
+- Que se pueda cambiar algo concreto con change
+
+- que si has dicho que sea de proposito comercial, donde se pone el filtro de piso 0, entonces te pregunta igualmente el piso y eso hace que sea contradictorio...
+
+- Cuando preguntamos que metodo queremos utilizar para estimar el precio de rent, me gustaria que el chat de tijera, podemos poner un precio limite, estimar una renta o dejar el campo habierto si no tienes un presupuesto en mente. 
+
+- que te pregunte si estas seguro de que quieres abandonar el chat cuando haces q o quit
 
 
 - boton para nueva conversacion?
+
+# Resuelto
 
 # Ejercicio 7: resumen de cambios
 
