@@ -62,6 +62,9 @@ Type the number to see the full details, or 'no' to finish.
 
 - que te pregunte si estas seguro de que quieres abandonar el chat cuando haces q o quit
 
+- faltan limites en las preguntas numericas
+
+- si te equivocas en la ultima pregunta no va hacia atras porque te busca los pisos directamente
 
 - boton para nueva conversacion?
 
