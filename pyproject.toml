@@ -9,6 +9,7 @@ requires-python = ">=3.11.9"
 dependencies = [
     "ipywidgets>=8.1.9",
     "nltk>=3.10.3",
+    "text2num>=3.1.0",
 ]
 
 [project.scripts]
