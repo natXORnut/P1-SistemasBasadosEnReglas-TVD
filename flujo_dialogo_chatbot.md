@@ -72,6 +72,7 @@ Notas:
 - Si quiere modificarlo, se le pide el precio máximo con la pregunta `price` y se usa ese valor.
 - Si no quiere ver la recomendación y tampoco quiere fijar un límite, `price` se guarda como `any`.
 - Si rechaza la planta baja, el bot lo comenta («Alright, then let's choose the floor yourself.») y pregunta la planta mínima con normalidad.
+- La pregunta de ubicación avisa de que, para ver las ubicaciones disponibles, se escribe `options`. El bot las lista y vuelve a esperar la respuesta, sin avanzar de pregunta.
 - Las preguntas 2 a 8 pueden cambiar las que vienen después, así que el flujo se reconstruye tras responderlas (`RECOMPUTE_FLOW_ON`).
 
 ## 3. Fase 2: puntuación y presentación de resultados
